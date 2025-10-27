@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/user/bin/connect_keyboard.sh
+Icon=dialog-scripts
+Name=connect_keyboard.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true
