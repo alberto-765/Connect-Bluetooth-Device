@@ -3,8 +3,6 @@
 # Log file
 LOG_FILE="$HOME/.local/state/connect_keyboard/$(date +%Y-%m-%d).log"
 
-echo $LOG_FILE
-
 # We verify bluetooth is activated
 if bluetoothctl show | grep -q "Powered: yes"; then
 	echo "Bluetooth activated. Trying yo connect to the keyboard..." >> $LOG_FILE
