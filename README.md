@@ -17,6 +17,10 @@ For it I have created this script.
 ```
   mv Connect-Bluetooth-Device/connect_keyboard.sh.desktop ~/.config/autostart/
 ```
+4. Create log file folder
+```
+  mkdir $HOME/.local/state/connect_keyboard
+```
 
 ## Use
 You have to put your device in pairing mode each time you are going to power on you computer. At this way the script are goint to:
