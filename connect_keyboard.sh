@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Log file
 LOG_FILE="$HOME/.local/state/connect_keyboard/$(date +%Y-%m-%d).log"
