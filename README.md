@@ -10,10 +10,13 @@ For it I have created this script.
 ```
   mkdir ~/bin
   git clone "https://github.com/alberto-765/Connect-Bluetooth-Device.git"
-  chmod +x ~/bin/connect_keyboard.sh 
+  cd Connect-Bluetooth-Device && mv connect_keyboard.sh ~/bin && chmod +x ~/bin/connect_keyboard.sh 
 ```
 2. Replace the MAC with you devices MAC
-3. Add the script to autostart or create a one with you DE tool, as me with KDE and autostart
+```
+  nano ~/bin/connect_keyboard.sh
+```
+4. Add the script to autostart or create a one with you DE tool, as me with KDE and autostart
 ```
   mv Connect-Bluetooth-Device/connect_keyboard.sh.desktop ~/.config/autostart/
 ```
