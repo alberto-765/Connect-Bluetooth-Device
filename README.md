@@ -10,7 +10,7 @@ For it I have created this script.
 ```
   mkdir ~/bin
   git clone "https://github.com/alberto-765/Connect-Bluetooth-Device.git"
-  cd Connect-Bluetooth-Device && mv connect_keyboard.sh ~/bin && chmod +x ~/bin/connect_keyboard.sh 
+  cd Connect-Bluetooth-Device && mv connect_keyboard.sh ~/bin
 ```
 2. Replace the MAC with you devices MAC
 ```
