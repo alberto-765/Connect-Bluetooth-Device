@@ -6,21 +6,24 @@ The solution I have found is to put my device in pairing mode each time I powero
 For it I have created this script.
 
 ## Installation
-1. Download the script in `~/bin` or `~/.local/bin`
+1. Download the script in `~/.local/bin`
 ```
-  mkdir ~/bin
   git clone "https://github.com/alberto-765/Connect-Bluetooth-Device.git"
-  cd Connect-Bluetooth-Device && mv connect_keyboard.sh ~/bin
+  cd Connect-Bluetooth-Device
 ```
 2. Replace the MAC with you devices MAC
 ```
-  nano ~/bin/connect_keyboard.sh
+  nano connect_keyboard.sh
+```
+3. Move script to local bin folder to be able to execute it from the terminal
+```
+  mv connect_keyboard.sh ~/.local/bin
 ```
 4. Add the script to autostart or create a one with you DE tool, as me with KDE and autostart
 ```
-  mv Connect-Bluetooth-Device/connect_keyboard.sh.desktop ~/.config/autostart/
+  mv connect_keyboard.sh.desktop ~/.config/autostart/
 ```
-4. Create log file folder
+5. Create log file folder
 ```
   mkdir $HOME/.local/state/connect_keyboard
 ```
